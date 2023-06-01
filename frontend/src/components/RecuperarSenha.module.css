@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --default-color: #2d73d2  ;
+}
+
+::selection{
+    background-color:var(--default-color);
+    color: #376bb4;
+}
+
+.body2{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--default-color);
+    padding: 40px;
+}
+
+.container2{
+    max-width: 850px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+
+.container2 .loginForm2 .title2{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.container2 .loginForm2 .title2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background-color: var(--default-color);
+}
+
+.container2 .loginForm2 .inputBox2{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.container2 .loginForm2 .inputBox2 .input2{
+    height: 100%;
+    width: 100%; 
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.container2 .loginForm2 .inputBox2 .input2:focus,
+.container2 .loginForm2 .inputBox2 .input2:valid{
+    border-color: var(--default-color);
+}
+
+.container2 .loginForm2 .inputBox2 .input2[type="submit"]{
+    background-color: var(--default-color);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2 .loginForm2 .inputBox2 .icons2 {
+    position: absolute;
+    color: var(--default-color);
+    font-size: 17px;
+}
+
+.container2 .loginForm2 .forgot .a2{
+    color: var(--default-color);
+    text-decoration: none;
+    align-items: center;
+}
+
+.container2 .loginForm2 .divider{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.container2 .loginForm2 .medias-socias{
+    text-align: center;
+}
+
+.container2 .loginForm2 .medias-socias .icons2{ 
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container2 .loginForm2 .medias-socias .icons2:hover{
+    color: var(--default-color);
+}
+
+.container2 .loginForm2 .sigupText2 .a2{
+    color: var(--default-color);
+    text-decoration: none;
+}
+
+.container2 .loginForm2-img{
+    width: 50%;  
+}
